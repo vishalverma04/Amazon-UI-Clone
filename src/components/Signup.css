@@ -1,0 +1,19 @@
+.already{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.already h3{
+    margin: 0 10px;
+}
+.already button{
+    margin: 0 10px;
+}
+.errormsg{
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+.signup:disabled{
+    background-color: gray !important;
+}

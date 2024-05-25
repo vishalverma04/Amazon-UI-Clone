@@ -1,0 +1,8 @@
+.amazontv-container{
+    background-color: antiquewhite;
+    color: black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}

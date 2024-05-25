@@ -1,0 +1,65 @@
+.login-form-container{
+    /* border: solid black 1px; */
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+
+
+}
+.logo{
+    width: 200px;
+
+    
+}
+.login-form{
+    /* border: solid black 1px; */
+    margin-top: -20px !important;
+   /* padding: 20px; */
+   width: 300px;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   border: solid 1px black;
+   padding: 20px;
+   border-radius: 5px;
+
+}
+.login-form h1{
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+input{
+    margin: 20px 5px;
+    width: 250px;
+    height: 20px;
+    font-size: 15px;
+    padding: 5px;
+}
+.login-form h5{
+    font-weight: 900;
+    font-size: 18px;
+    font-weight: 800;
+}
+.signbutton , .login-resistor-button{
+    padding: 5px;
+    width: 80px;
+    background-color: rgb(242, 184, 8);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.login-resistor-button{
+    margin-top: 20px;
+width: auto;
+
+}
+.login-resistor-button{
+    background-color: rgb(193, 188, 188);
+    font-weight: 400;
+}
+.google{
+    margin: 5px 20px;
+    width: 260px !important;
+}
